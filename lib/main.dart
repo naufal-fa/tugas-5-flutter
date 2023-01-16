@@ -56,7 +56,7 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             Container(
-              margin: const EdgeInsets.only(top: 20.0, left: 15, right: 15, bottom: 20),
+              margin: const EdgeInsets.only(top: 40.0, left: 15, right: 15, bottom: 20),
               child:     
               TextField(
                   decoration: new InputDecoration(

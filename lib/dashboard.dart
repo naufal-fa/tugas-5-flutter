@@ -12,14 +12,14 @@ class Dashboard extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(8),
         children: <Widget>[
-          ListTile( title: Text("Todd Peterson"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Claude Castro"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Clarra Morris"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Rachel Frazier"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Renee Olson"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Charlotte Fuller"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Gene Douglas"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
-          ListTile( title: Text("Floyd George"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png"))),
+          ListTile( title: Text("Todd Peterson"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Claude Castro"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Clarra Morris"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Rachel Frazier"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Renee Olson"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Charlotte Fuller"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Gene Douglas"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
+          ListTile( title: Text("Floyd George"), leading: CircleAvatar(backgroundImage: AssetImage("assets/logo.png")), subtitle: Text("Ini adalah deskripsi list")),
         ],
       )
     );
